@@ -1,0 +1,4 @@
+# ignore config file for security
+.env
+__app.py
+__pycache__/
