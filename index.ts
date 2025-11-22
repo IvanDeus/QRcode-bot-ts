@@ -10,13 +10,13 @@ const SCRIPT_DIR = import.meta.dir;
 const STATIC_DIR = path.join(SCRIPT_DIR, "static");
 const FONT_PATH = path.join(STATIC_DIR, "DejaVuSans.ttf");
 // --- Database Connection Pool ---
-// Uses a pool to keep connections alive, significantly faster than the Python version
+// Uses a pool to keep connections alive
 const pool = mysql.createPool({
     host: Bun.env.DB_HOST,
     user: Bun.env.DB_USER,
     password: Bun.env.DB_PASS,
     database: Bun.env.DB_NAME,
-    socketPath: Bun.env.DB_SOCKET_PATH, // Use if connecting via Unix Socket
+    socketPath: Bun.env.DB_SOCKET_PATH,
     waitForConnections: true,
     connectionLimit: 10,
     queueLimit: 0,
