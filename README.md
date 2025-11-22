@@ -13,7 +13,7 @@ Telegram bot: QR code generator
 3. mysql < QRcodebot_cfg.sql
 4. create bot using bot father
 5. set up webhook
-6. bun run index.ts &
+6. Run: `bun run index.ts &`
 7. Add to nginx:  
 ```
     location /QRcodebot {
