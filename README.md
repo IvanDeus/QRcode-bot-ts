@@ -3,9 +3,9 @@ Telegram bot: QR code generator
 
 ## reqs
 
-bun 1.3.2
-mysql 8.x
-nginx 
+- bun 1.3.2
+- mysql 8.x
+- nginx 
 
 ## set up
 1. git clone <>
