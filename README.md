@@ -28,20 +28,13 @@ A Telegram bot built with TypeScript that generates QR codes on demand. Fast, re
 2. **Set up environment variables**
    ```bash
    cp .env-example .env
-   # Edit .env with your configuration
+   # Edit .env with your configuration - Copy the bot token to your `.env` file
    ```
 
 3. **Configure the database**
    ```bash
    mysql databasename < QRcodebot_cfg.sql
    ```
-
-## ⚙️ Configuration
-
-### Bot Configuration
-1. Create a new bot via [@BotFather](https://t.me/botfather)
-2. Copy the bot token to your `.env` file
-3. Set up the webhook URL (more details below)
 
 ### Webhook Setup
 Configure your bot to use a webhook endpoint:
