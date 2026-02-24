@@ -56,7 +56,7 @@ bun run index.ts &
 ```
 
 ### Nginx Configuration
-Add this to your Nginx configuration to proxy requests to the bot:
+Add this to your Nginx configuration to proxy requests to the bot if needed:
 
 ```nginx
 location /QRcodebot {
@@ -72,14 +72,14 @@ location /QRcodebot {
 }
 ```
 
-## 🎮 Usage
+## Usage
 
 Once the bot is running, interact with it on Telegram:
 1. Start a chat with your bot
 2. Follow instructions to generate a QR code
 3. The bot will reply with a QR code image
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 - **Bot not responding?** Check if the webhook is properly set up
 - **Database errors?** Verify MySQL is running and credentials are correct
