@@ -30,4 +30,4 @@ Telegram bot: QR code generator
 ```
 8. Enjoy!
 
-2025 [ivan deus]
+2025 [ ivan deus ]
