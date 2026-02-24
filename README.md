@@ -21,7 +21,7 @@ A Telegram bot built with TypeScript that generates QR codes on demand. Fast, re
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/IvanDeus/QRcode-bot-ts.git
    cd QRcode-bot-ts
    ```
 
