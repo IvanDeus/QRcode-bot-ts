@@ -1,4 +1,4 @@
-# QRcode-bot-ts 🤖
+# QRcode-bot-ts
 
 A Telegram bot built with TypeScript that generates QR codes on demand. Fast, reliable, and easy to use!
 
