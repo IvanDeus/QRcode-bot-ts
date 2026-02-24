@@ -2,7 +2,7 @@
 
 A Telegram bot built with TypeScript that generates QR codes on demand. Fast, reliable, and easy to use!
 
-## 🚀 Features
+## Features
 
 - Generate QR codes instantly via Telegram
 - Built with TypeScript for type safety
@@ -10,7 +10,7 @@ A Telegram bot built with TypeScript that generates QR codes on demand. Fast, re
 - MySQL database for user tracking and analytics
 - Production-ready with Nginx reverse proxy
 
-## 📋 Prerequisites
+## Prerequisites
 
 - [Bun](https://bun.sh/) v1.3.2 or higher
 - MySQL 8.x
@@ -34,11 +34,6 @@ A Telegram bot built with TypeScript that generates QR codes on demand. Fast, re
 3. **Configure the database**
    ```bash
    mysql databasename < QRcodebot_cfg.sql
-   ```
-
-4. **Install dependencies**
-   ```bash
-   bun install
    ```
 
 ## ⚙️ Configuration
