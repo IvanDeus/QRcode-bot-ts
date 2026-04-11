@@ -49,7 +49,6 @@ async function setTelegramWebhook(
 async function main() {
   const TELEGRAM_BOT_TOKEN = Bun.env.BOT_TOKEN;
   const WEBHOOK_URL = Bun.env.WEBHOOK_URL;
-  const webhookPath = '/hoowmeup'; 
   // Validate environment variables
   if (!TELEGRAM_BOT_TOKEN) {
     console.error('❌ TELEGRAM_BOT_TOKEN is not set in .env file');
@@ -65,9 +64,9 @@ async function main() {
       console.error('❌ No domain provided');
       process.exit(1);
     }
-    finalWebhookUrl = `${publicDomain}${webhookPath}`;
+    finalWebhookUrl = `${publicDomain}`;
   } else {
-    finalWebhookUrl = `${WEBHOOK_URL}${webhookPath}`;
+    finalWebhookUrl = `${WEBHOOK_URL}`;
   }
   console.log(`\nSetting webhook to: ${finalWebhookUrl}`);
   const result = await setTelegramWebhook(
