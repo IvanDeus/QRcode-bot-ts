@@ -47,7 +47,7 @@ async function setTelegramWebhook(
  * Main function
  */
 async function main() {
-  const TELEGRAM_BOT_TOKEN = Bun.env.TELEGRAM_BOT_TOKEN;
+  const TELEGRAM_BOT_TOKEN = Bun.env.BOT_TOKEN;
   const WEBHOOK_URL = Bun.env.WEBHOOK_URL;
   const webhookPath = '/hoowmeup'; 
   // Validate environment variables
