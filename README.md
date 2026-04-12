@@ -39,7 +39,7 @@ A Telegram bot built with TypeScript that generates QR codes on demand. Fast, re
 ### Webhook Setup
 Configure your bot to use a webhook endpoint:
 ```bash
-bun run setup_webhook.ts
+bun run setup_webhook.ts -s
 ```
 
 ## 🚀 Running the Bot
